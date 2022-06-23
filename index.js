@@ -9,6 +9,10 @@ for(let j=0;j<array.length-1;j++){
 
 /* 
   Write the Big O time complexity of your function here
+  The algorithm at its worst case could take every element of the array and add to all the rest,
+   hence making a loop twice in the elements of the array.
+   The time reqirement for the algorithm thus increases exponentially with an increase in the legth of the array.
+   The time complexity is thus O(n*n)
 */
 
 /* 
