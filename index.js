@@ -1,7 +1,7 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
-for(let j=0;j<array.length-1;j++){
-  for(let i=j+1;i<array.length-j;i++){
+for(let j=0;j<array.length;j++){
+  for(let i=j+1;i<array.length;i++){
     return array[j] + array[i] === target;
    }
 }
